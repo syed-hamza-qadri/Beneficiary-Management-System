@@ -48,7 +48,7 @@ export default function DepartmentActivity() {
             </tr>
           </thead>
           <tbody>
-            {activity.map((dept: any) => (
+            {activity.map((dept) => (
               <tr
                 key={dept.name}
                 className="border-b border-gray-200 hover:bg-gray-50"
